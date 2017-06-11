@@ -20,6 +20,13 @@ namespace Powerco.Controllers
             return View();
         }
 
+        public ActionResult Join()
+        {
+            ViewBag.Message = "Join here";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
